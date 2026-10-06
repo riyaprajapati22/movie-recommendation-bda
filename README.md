@@ -27,3 +27,4 @@ Spark partitions the ratings across cores/nodes; ALS alternates solving user and
 item factor matrices in parallel. Switch `master("local[*]")` to a YARN/Spark
 cluster and point to HDFS paths to run on a real cluster with no code change
 to the algorithm.
+# nids-ml
